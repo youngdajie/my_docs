@@ -23,9 +23,14 @@ export default defineThemeConfig({
 	appearance: true,  // 配置 深色模式
 
 	social: [
-		// { icon: 'github', link: 'https://github.com/youngdajie' },
+		{ icon: 'bilibili', link: 'https://space.bilibili.com/646325099' },
+		{ icon: 'qq', link: 'tencent://message/?uin=434871910&Site=qq&Menu=yes' },
+		{ icon: 'youtube', link: 'https://www.youtube.com/@youngdajie' },
+		{ icon: 'x', link: 'https://x.com/youngdajie' },
+		// { icon: 'tiktok', link: '' },
+		{ icon: 'telegram', link: 'https://t.me/youngdajie' },
 	],
-	// navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+	navbarSocialInclude: ['github', 'qq', 'bilibili','x','tiktok','youtube','telegram'], // 允许显示在导航栏的 social 社交链接
 	// aside: true, // 页内侧边栏， 默认显示在右侧
 	// outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
@@ -40,10 +45,10 @@ export default defineThemeConfig({
 	// createTime: true, // 是否显示文章创建时间
 
 	/* 站点页脚 */
-	// footer: {
-	//   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-	//   copyright: '',
-	// },
+	footer: {
+		// message: 'Power by <a target="_blank" href="https://www.yangjie.site/">JIE</a>',
+		copyright: '© 2026-Present JIE All Rights Reserved',
+	},
 
 	/**
 	 * @see https://theme-plume.vuejs.press/config/theme/#profile
@@ -63,9 +68,7 @@ export default defineThemeConfig({
 	collections: [
 		{ type: 'doc', dir: '百宝箱', title: '百宝箱', sidebar: 'auto' }
 	], // 集合配置
-	// autoFrontmatter: {
-	// 	permalink: 'filepath',
-	// } # 默认拼音化
+
 	/**
 	 * 公告板
 	 * @see https://theme-plume.vuejs.press/guide/features/bulletin/

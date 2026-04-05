@@ -1,0 +1,16 @@
+@import url('https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css');
+
+:root:where(:lang(zh)),
+:root:where(:lang(zh-CN)) {
+	--vp-font-family-base: LXGW WenKai Screen, "Microsoft YaHei";
+}
+
+:root {
+    --vp-font-family-base: LXGW WenKai Screen, "Microsoft YaHei";
+    --vp-font-family-mono: LXGW WenKai Screen, "Microsoft YaHei"; /* 代码字体 */
+    font-optical-sizing: auto;
+}
+/* 
+footer{
+	display: none; 
+} */

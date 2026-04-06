@@ -16,7 +16,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '小杰百宝箱',
+  title: '小杰备忘录',
   description: '我的文档站点，防遗忘，万能百宝箱',
 
   head: [

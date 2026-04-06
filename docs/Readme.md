@@ -2,54 +2,12 @@
 pageLayout: home
 home: true
 config:
- -
-    type: hero
-    full: true
-    effect: hyper-speed
-    effectConfig:
-      distortion: turbulentDistortion
-      length: 400
-      roadWidth: 10
-      islandWidth: 2
-      lanesPerRoad: 3
-      fov: 90
-      fovSpeedUp: 150
-      speedUp: 2
-      carLightsFade: 0.4
-      totalSideLightSticks: 20
-      lightPairsPerRoadWay: 40
-      shoulderLinesWidthPercentage: 0.05
-      brokenLinesWidthPercentage: 0.1
-      brokenLinesLengthPercentage: 0.5
-      lightStickWidth: [0.12, 0.5]
-      lightStickHeight: [1.3, 1.7]
-      movingAwaySpeed: [60, 80]
-      movingCloserSpeed: [-120, -160]
-      carLightsLength: [12, 80]
-      carLightsRadius: [0.05, 0.14]
-      carWidthPercentage: [0.3, 0.5]
-      carShiftX: [-0.8, 0.8]
-      carFloorSeparation: [0, 5]
-      colors:
-        roadColor: 0x080808
-        islandColor: 0x0a0a0a
-        background: 0x000000
-        shoulderLines: 0x131318
-        brokenLines: 0x131318
-        leftCars: [0xd856bf, 0x6750a2, 0xc247ac]
-        rightCars: [0x03b3c3, 0x0e5ea5, 0x324555]
-        sticks: 0x03b3c3
-    hero:
-      name: 小杰说明书
-      text: 杂七杂八
-      tagline: 什么东西都往里塞
-      actions:
-        -
-          theme: brand
-          text: 快速开始
-          link: /百宝箱/start/
-        -
-          theme: alt
-          text: Github
-          link: https://github.com/youngdajie
+  -
+    type: text-image
+    description: 这里是 <a href="https://www.yangjie.site/" target="_blank"> 我 </a> 个人的备忘录，存放了一些笔记，以防遗忘. <a href="/备忘录/start/">开始👉</a>
+    image: /.vuepress/public/xiaojie_logo.avif
+    list:
+      -  description: 相比于传统的收藏夹，用自建文档系统能更快地找到自己整理过的内容，毕竟是自己做出来的.
+      -  description: <a href="https://marketplace.vuejs.press/zh/" target="_blank">VuePress</a> 搭建的网站感觉更轻量，搭建过程也要比 <a href="https://hexo.io/zh-cn/" target="_blank">Hexo</a> 要省力，配合 Github 托管和 <a href="https://console.cloud.tencent.com/edgeone/zones" target="_blank">EdgeOne</a> 加速，编辑体验很顺畅，发布也很方便，基本可以做到 “即写即发”.
+      -  description: 本站点写的东西很杂，主要是想到什么写什么，但感觉都挺有用的，去除了 Plume 主题 的博客系统，感兴趣的话，可以去 <a href="https://box.yangjie.site" target="_blank">我的博客网站</a> 逛逛看看.
 ---

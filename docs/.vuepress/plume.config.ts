@@ -29,6 +29,7 @@ export default defineThemeConfig({
 		{ icon: 'x', link: 'https://x.com/youngdajie' },
 		// { icon: 'tiktok', link: '' },
 		{ icon: 'telegram', link: 'https://t.me/youngdajie' },
+		{ icon: 'github', link: 'https://github.com/youngdajie/my_docs' },
 	],
 	navbarSocialInclude: ['github', 'qq', 'bilibili','x','tiktok','youtube','telegram'], // 允许显示在导航栏的 social 社交链接
 	// aside: true, // 页内侧边栏， 默认显示在右侧
@@ -55,7 +56,7 @@ export default defineThemeConfig({
 	 */
 	profile: {
 		avatar: 'https://theme-plume.vuejs.press/plume.png',
-		name: 'my_docs',
+		name: '小杰备忘录',
 		description: '我的文档站点，防遗忘，万能百宝箱',
 		// circle: true,
 		// location: '',
@@ -63,10 +64,10 @@ export default defineThemeConfig({
 	},
 
 	navbar: [
-		{ text: '首页', link: '/' }, { text: '开始', link: '/百宝箱/start/' }
+		{ text: '首页', link: '/' }, { text: '开始', link: '/备忘录/start/' }
 	],
 	collections: [
-		{ type: 'doc', dir: '百宝箱', title: '百宝箱', sidebar: 'auto' }
+		{ type: 'doc', dir: '备忘录', title: '备忘录', sidebar: 'auto' }
 	], // 集合配置
 
 	/**
@@ -81,10 +82,10 @@ export default defineThemeConfig({
 	// },
 
 	/* 过渡动画 @see https://theme-plume.vuejs.press/config/theme/#transition */
-	// transition: {
-	//   page: true,        // 启用 页面间跳转过渡动画
-	//   postList: true,    // 启用 博客文章列表过渡动画
-	//   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
-	// },
+	transition: {
+	  page: true,        // 启用 页面间跳转过渡动画
+	  // postList: true,    // 启用 博客文章列表过渡动画
+	  appearance: 'circle-clip',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+	},
 
 })

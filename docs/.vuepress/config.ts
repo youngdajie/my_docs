@@ -90,7 +90,7 @@ export default defineUserConfig({
      * markdown
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
-    // markdown: {
+    markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
@@ -108,7 +108,7 @@ export default defineUserConfig({
     //   jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
     //   npmTo: true,        // 启用 npm-to 容器  ::: npm-to
     //   demo: true,         // 启用 demo 容器  ::: demo
-    //   collapse: true,     // 启用折叠容器  ::: collapse
+      collapse: true,     // 启用折叠容器  ::: collapse
     //   repl: {             // 启用 代码演示容器
     //     go: true,         // ::: go-repl
     //     rust: true,       // ::: rust-repl
@@ -130,7 +130,7 @@ export default defineUserConfig({
     //   },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
     //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-    // },
+    },
 
     /**
      * 水印
@@ -164,7 +164,7 @@ export default defineUserConfig({
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
-    // encrypt: {},
+    encrypt: {},
 
     /**
      * 启用 llmstxt 插件，用于为大语言模型提供更友好的内容

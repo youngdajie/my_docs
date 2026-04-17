@@ -4,7 +4,7 @@ home: true
 config:
   -
     type: text-image
-    description: 这里是 <a href="https://www.yangjie.site/" target="_blank"> 我 </a> 个人的备忘录，存放了一些笔记，以防遗忘. <a href="/备忘录/start/">开始👉</a>
+    description: 这里是 <a href="https://www.yangjie.site/" target="_blank"> 我 </a> 个人的备忘录，存放了一些笔记，以防遗忘. <a href="/备忘录/start/" target='_blank'>开始👉</a>
     image: https://cdn.box.yangjie.site/img/other/xiaojie_logo.avif
     list:
       -  description: 相比于传统的收藏夹，用自建文档系统能更快地找到自己整理过的内容，毕竟是自己做出来的.
